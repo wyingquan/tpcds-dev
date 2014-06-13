@@ -1,0 +1,2 @@
+./dsqgen -scale 1 -template query_templates/query1.tpl -dialect /Users/garcic11/datasets/tpcds_20080121/query_templates/ansi
+
