@@ -18,7 +18,7 @@ logger.setLevel(logging.INFO)
 
 #Run a query 3 times
 def runQ(file):
-    sql = 'time psql -tAf' + file
+    sql = 'time psql -Af' + file
     run_count=1
     prline = []
     while run_count <= num_iters:
